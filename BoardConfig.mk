@@ -32,7 +32,7 @@ TARGET_RECOVERY_DEVICE_MODULES := init_joyeuse
 # Kernel
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_BASE := 0x00000000
-BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.memcg=1 lpm_levels.sleep_disabled=1 msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=1 androidboot.usbcontroller=a600000.dwc3 loop.max_part=7 msm_rtb.enabled=1 buildvariant=user
+BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom swiotlb=1 androidboot.usbcontroller=a600000.dwc3
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET := 0x01000000
