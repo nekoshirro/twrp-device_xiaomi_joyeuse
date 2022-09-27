@@ -19,11 +19,4 @@ PRODUCT_DEVICE := joyeuse
 PRODUCT_NAME := omni_joyeuse
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 9 Pro
-PRODUCT_MANUFACTURER := xiaomi
-
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="joyeuse_id-user 12 RKQ1.211019.001 V13.0.4.0.SJZIDXM release-keys"
-
-BUILD_FINGERPRINT := Redmi/joyeuse_id/joyeuse:12/RKQ1.211019.001/V13.0.4.0.SJZIDXM:user/release-keys
+PRODUCT_MANUFACTURER := Xiaomi
