@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_joyeuse.mk
+    $(LOCAL_DIR)/twrp_joyeuse.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_joyeuse-user \
-    omni_joyeuse-userdebug \
-    omni_joyeuse-eng
+    twrp_joyeuse-user \
+    twrp_joyeuse-userdebug \
+    twrp_joyeuse-eng
