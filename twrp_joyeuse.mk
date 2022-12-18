@@ -15,6 +15,8 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Inherit from joyeuse device
 $(call inherit-product, device/xiaomi/joyeuse/device.mk)
 
+PRODUCT_DEVICE := joyeuse
+PRODUCT_NAME := twrp_joyeuse
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 9 Pro
 PRODUCT_MANUFACTURER := Xiaomi
